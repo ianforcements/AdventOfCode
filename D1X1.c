@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <limits.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -67,6 +66,7 @@ int  main()
 	int absoluteY = abs(displacementVector[0]);
 	int absoluteX = abs(displacementVector[1]);
 	int displacementInBlocks = absoluteX + absoluteY;
-	printf("The target site is %d blocks away.\n", displacementInBlocks);
+	printf("\n\n+++Target reached+++\n\n");
+	printf("The target site is %d blocks from the origin point.\n", displacementInBlocks);
 	return 0;
 }
